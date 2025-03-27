@@ -6,3 +6,8 @@ hoje = datetime.today()
 idade = hoje.year - nascimento.year
 
 print(f'você tem {idade} anos atualmente')
+
+if idade >= 18:
+    print("Você já é de maior")
+else:
+    print("Você é de menor")
