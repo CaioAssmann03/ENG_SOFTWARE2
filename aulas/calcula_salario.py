@@ -1,1 +1,0 @@
-print(f'salario do João agopra é R$10.00 ')
