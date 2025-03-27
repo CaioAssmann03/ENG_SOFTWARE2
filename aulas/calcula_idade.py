@@ -5,4 +5,4 @@ nascimento = datetime.strptime(data_nasc, "%d/%m/%Y")
 hoje = datetime.today()
 idade = hoje.year - nascimento.year
 
-print(f'você tem {idade} anos')
+print(f'você tem {idade} anos atualmente')
